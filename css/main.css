@@ -1,0 +1,174 @@
+/***** Base Style *****/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    background: #1f202b;
+}
+
+/***** Grid *****/
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width{
+    width: 600px;
+    float: left;
+}
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+/***** Header *****/
+
+header{
+    height: 800px;
+    background: url('../img/hero-background.png');
+    background-size: cover;
+    background-position: center;
+    text-transform: capitalize;
+}
+header h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: 45px;
+}
+header p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: 45px;
+}
+header p span{
+    color: #fa0075;
+}
+nav{
+    float: right;
+    padding: 45px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 45px;
+}
+
+/***** Portfolio-1 Section *****/
+
+#portfolio-1 .full-width{
+    padding: 80px;
+}
+#portfolio-1 h2{
+    text-align: center;
+    color: #fa0075;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+#portfolio-1 img{
+    padding-top: 25px;
+}
+#portfolio-1 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 25px;
+}
+#portfolio-1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+/***** Portfolio-2 Section *****/
+
+#portfolio-2 img{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 75px;
+}
+#portfolio-2 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 50px;
+}
+#portfolio-2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 50px;
+    padding-bottom: 75px;
+}
+
+/***** About *****/
+
+#about{
+    height: 550px;
+    background: url('../img/about-me.png');
+    background-size: cover;
+    background-position: center;
+}
+#about h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #fa0075;
+}
+#about p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    line-height: 150%;
+}
+
+/***** Footer *****/
+
+#contact{
+    height: 400px;
+}
+#contact h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #fa0075;
+}
+#contact h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+}
+#contact p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+#contact a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 28px;
+    padding-left: 60px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact ul img {
+    width: 65px;
+    height: 65px;
+}
